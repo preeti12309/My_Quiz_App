@@ -1,0 +1,6 @@
+button
+ {
+    text-align: center; /* Center the button horizontally */
+    margin-top: 10px; /* Add a 10px gap between the input field and the button */
+    display: flex;
+}

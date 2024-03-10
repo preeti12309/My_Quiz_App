@@ -1,0 +1,36 @@
+<div class="container">
+    <h2>Welcome to the Quiz App</h2>
+    <p>This quiz will contains total 10 question.Each Question holds 10 points.</p>
+    <h3>Rules:</h3>
+    <ol>
+        <li>
+         Correct question give you 10 points.
+         <li>
+         Incorrect question give you -5 points
+         </li>
+         <li>
+         you will have 60 sec to answer each question.
+        </li>
+        <li>
+        Refereshing the page with reset the quiz.
+        </li>
+    </ol>
+    <h1 style="font-family: cursive;text-align: center;"> All the best!!🙂</h1>
+    <div class="name">
+        <style>
+            .form-control {
+              font-size: 12px; /* Set the font size to 12px */
+              padding: 5px; /* Add some padding around the input */
+              width: 300px; /* Set a specific width for the input */
+            }
+          </style>
+        <div class="name">
+            <label for= " ">Enter your Name:</label>
+            <input #name type="text" class="form-control">
+            
+        </div>
+          <button style="background-color: blue; color: white; padding: 8px 16px; border: none; border-radius: 5px; cursor: pointer;"routerLink="/question"(click)="startQuiz()">start quiz!!</button>
+
+    </div>
+
+</div>
